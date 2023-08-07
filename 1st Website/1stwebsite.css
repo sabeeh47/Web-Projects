@@ -1,0 +1,200 @@
+.navbar{
+  /* opacity: 70%; */
+  /* background: url('pics/4.jpg'); */
+  color:white;
+  background-color: rgb(0,0,0,0.3);
+
+}
+
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 5px 20px;
+}
+.nav-item{
+  color: white;
+}
+
+.nav-link{
+  color: gray !important;
+}
+
+.nav-link.active{
+  color: white !important;
+}
+.nav-link:hover{
+  color: white !important;
+}
+
+#Home-page{
+    background: url('pics/4.jpg') no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#Home-page h1{
+  color: white;
+  margin-top: 350px;
+
+  font-size: 73px;
+  font-family: Times;
+}
+#Home-page .btn-outline-secondary{
+  color: white;
+  border: 1px solid white;
+
+}
+
+#Home-page .btn-outline-secondary:hover{
+color: black;
+background: white;
+transition: 0.6s ease;
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 2100px) {
+
+
+  #Home-page h1{
+    font-size: 93px;
+     margin-left: 20px;
+  }
+  #Home-page .btn-outline-secondary{
+      left: 12;
+    margin-left: 15px;
+    padding: 8px 25px;
+  }
+}
+
+
+
+@media screen and (max-width: 1800px) {
+
+
+#Home-page h1{
+margin-top: 250px;
+  font-size: 83px;
+   margin-left: 20px;
+}
+#Home-page .btn-outline-secondary{
+    left: 8;
+  margin-left: 15px;
+  padding: 8px 25px;
+}
+}
+
+
+@media screen and (max-width: 1500px) {
+
+#Home-page{
+  background-size: 1500px 100vh;
+}
+#Home-page h1{
+  margin-top: 250px;
+  font-size: 73px;
+     margin-left: 0;
+}
+#Home-page .btn-outline-secondary{
+  left: 4;
+  margin-left: 0px;
+  padding: 8px 15px;
+
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+
+#Home-page{
+  background-size: 1200px 100vh;
+}
+#Home-page h1{
+  font-size: 73px;
+}
+#Home-page .btn-outline-secondary{
+  left: 0;
+  margin-left: 0;
+  padding: 4px 10px;
+}
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+  #Home-page{
+    background-size: 992px 100vh;
+  }
+  #Home-page h1{
+    font-size: 73px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  #Home-page{
+    background-size: 768px 100vh;
+  }
+  #Home-page h1{
+    font-size: 63px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+
+  #Home-page{
+    background-size: 576px 100vh;
+  }
+  #Home-page h1{
+    font-size: 53px;
+  }
+}

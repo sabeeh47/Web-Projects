@@ -1,0 +1,149 @@
+
+.navbar{
+  /* opacity: 70%; */
+  /* background: url('pics/4.jpg'); */
+  color:white;
+  background-color: rgb(0,0,0,0.3);
+
+}
+
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 5px 20px;
+}
+.nav-item{
+  color: white;
+}
+
+.nav-link{
+  color: gray !important;
+}
+
+.nav-link.active{
+  color: white !important;
+}
+.nav-link:hover{
+  color: white !important;
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#paidgames{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('pics/D.jpg');
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+}
+#paidgames .img{
+  padding:  15px;
+}
+#paidgames .text{
+  padding-top: 1px;
+  color: white;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+#games a{
+  color: white;
+  text-decoration: none;
+}
+
+#games a:hover{
+  color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 2100px) {
+
+  #paidgames{
+
+      height: 220vh;
+      background-size: cover;
+      background-position: center;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1800px) {
+
+  #paidgames{
+
+      height: 290vh;
+      background-size: cover;
+      background-position: center;
+  }
+
+}
+
+
+@media screen and (max-width: 1500px) {
+
+  #paidgames{
+
+      height: 260vh;
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  #paidgames{
+
+      height: 240vh;
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+  #paidgames{
+
+      height: 230vh;
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #paidgames{
+
+      height: 450vh;
+      background-size: cover;
+      background-position: center;
+  }
+
+}
+
+
+@media screen and (max-width: 576px) {
+  #paidgames{
+
+      height: 1190vh;
+      background-size: cover;
+      background-position: center;
+  }
+
+}

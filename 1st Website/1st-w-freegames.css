@@ -1,0 +1,191 @@
+.navbar{
+  /* opacity: 70%; */
+  /* background: url('pics/4.jpg'); */
+  color:white;
+  background-color: rgb(0,0,0,0.3);
+
+}
+
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+.navbar-nav{
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 5px 20px;
+}
+.nav-item{
+  color: white;
+}
+
+.nav-link{
+  color: gray !important;
+}
+
+.nav-link.active{
+  color: white !important;
+}
+.nav-link:hover{
+  color: white !important;
+}
+#freegames{
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('pics/10.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#search-btn a{
+  text-decoration: none;
+}
+
+#search-btn .btn-outline-secondary{
+display: flex;
+margin-top: 80px;
+margin-right: 100px;
+  margin-left: auto;
+  color: white;
+  border: 1px solid white;
+}
+
+
+#search-btn .btn-outline-secondary:hover{
+  color: black;
+  background: white;
+  transition: 0.6s ease;
+}
+
+h1{
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  color: white;
+}
+
+#freegames .img{
+  padding:  15px;
+}
+#freegames .text{
+  padding-top: 1px;
+  color: white;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+#games a{
+  color: white;
+  text-decoration: none;
+}
+
+#games a:hover{
+  color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 2100px) {
+
+  #freegames{
+
+      height: 180vh;
+      background-size: cover;
+      background-position: center;
+  }
+  #search-btn .btn-outline-secondary{
+  display: flex;
+  margin-top: 80px;
+  margin-right: 100px;
+    margin-left: auto;
+    color: white;
+    border: 1px solid white;
+  }
+}
+
+
+
+@media screen and (max-width: 1800px) {
+
+  #freegames{
+
+      height: 160vh;
+      background-size: cover;
+      background-position: center;
+  }
+
+}
+
+
+@media screen and (max-width: 1500px) {
+
+  #freegames{
+
+      height: 160vh;
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  #freegames{
+
+      height: 160vh;
+      background-size: cover;
+      background-position: center;
+  }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+  #freegames{
+
+      height: 160vh;
+      background-size: cover;
+      background-position: center;
+  }
+  #search-btn .btn-outline-secondary{
+  display: flex;
+  margin-top: 80px;
+  margin-right: 20px;
+    margin-left: auto;
+    color: white;
+    border: 1px solid white;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #freegames{
+
+      height: 250vh;
+      background-size: cover;
+      background-position: center;
+  }
+  #search-btn .btn-outline-secondary{
+  display: flex;
+  margin-top: 80px;
+  margin-right: 20px;
+    margin-left: auto;
+    color: white;
+    border: 1px solid white;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  #freegames{
+
+      height: 520vh;
+      background-size: cover;
+      background-position: center;
+  }
+
+}
