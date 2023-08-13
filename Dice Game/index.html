@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn-instructions">Read instructions</button>
+    <div class="modal hiddenModal">
+        <div class="modal-header">
+            <div class="heading"> 
+            <h2> Game Instructions </h2>
+            </div>
+            <div class="modal-buton">
+                <button class="modal-close">&times;</button>
+            </div>
+            
+        </div>
+        <div class="modal-content">
+            <hr>
+            <ol>
+                <li>This is a 2 player game</li>
+                <li>The player who first scores 50 points will win</li>
+                <li>Player 1 will always start the game</li>
+                <li>The player will roll the dice by clicking 'Roll Dice' button</li>
+                <li>The number shown on the dice will be added to the current score of the player unless the player rolls the number 1</li>
+                <li>If the rolled dice has a value of 1 then the player will lose all of his/her current score and now it's the turn of second player</li>
+                <li>Player can avoid losing the score by clicking the hold button which will add the current score to the main score of the player</li>
+                <li>Now even if the player rolls the number 1, the main score will not be changed</li>
+                <li>When the hold button is pressed, other player will play the game</li>
+                <li>You can always restart the game by pressing the 'New Game' button </li>
+
+
+
+            </ol>
+        </div>
+
+    </div>
+    <div class="box">
+        <button class="btn-newGame">🎮 NEW GAME</button>
+        <img class="dice-img" src="dice-2.png" alt="">
+        <button class="btn-RollDice">🎲 &nbsp; ROLL DICE</button>
+        <button class="btn-hold">📥 &nbsp; HOLD</button>
+        
+        <div class="box0 active">
+            <h1 class="headings">Player 1</h1>
+            <h2 class="winner0">Winner 🎉🎉</h2>
+            <h1 class="score-p0">0</h1>
+            <div class="wrap">
+                <div class="current p1">
+                    <h3>Current</h3>
+                    <h2 class="p0-current">0</h2>
+                </div>
+            </div>
+           
+        </div>
+        <div class="box1">
+            <h1 class="headings">Player 2</h1>
+            <h2 class="winner1">Winner 🎉🎉</h2>
+
+            <h1 class="score-p1">0</h1>
+            <div class="wrap">
+                <div class="current p2">
+                    <h3>Current</h3>
+                    <h2 class="p1-current">0</h2>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
